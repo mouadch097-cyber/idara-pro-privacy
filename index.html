@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Idara Pro — Privacy Policy</title>
+
+  <meta
+    name="description"
+    content="Privacy Policy for Idara Pro — إدارة برو"
+  />
+
+  <style>
+    :root {
+      --primary: #1677ff;
+      --primary-dark: #0b5cff;
+      --bg: #f5f7fa;
+      --card: #ffffff;
+      --text: #111827;
+      --muted: #667085;
+      --border: #e5e7eb;
+      --success: #16a34a;
+      --danger: #ef4444;
+      --shadow: 0 12px 35px rgba(15, 23, 42, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Arial,
+        sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border-bottom: 1px solid rgba(229, 231, 235, 0.8);
+    }
+
+    .header-inner {
+      max-width: 1050px;
+      margin: auto;
+      min-height: 76px;
+      padding: 12px 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      color: var(--text);
+    }
+
+    .brand-logo {
+      width: 48px;
+      height: 48px;
+      border-radius: 14px;
+      object-fit: contain;
+      background: white;
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.2;
+    }
+
+    .brand-name {
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .brand-subtitle {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    .language-switch {
+      display: flex;
+      gap: 5px;
+      background: #eef2f7;
+      padding: 4px;
+      border-radius: 12px;
+    }
+
+    .language-switch button {
+      border: none;
+      background: transparent;
+      color: var(--muted);
+      padding: 7px 13px;
+      border-radius: 9px;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    .language-switch button.active {
+      background: white;
+      color: var(--primary);
+      box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+    }
+
+    .hero {
+      max-width: 1050px;
+      margin: 0 auto;
+      padding: 65px 22px 35px;
+      text-align: center;
+    }
+
+    .hero-logo {
+      width: 110px;
+      height: 110px;
+      object-fit: contain;
+      margin-bottom: 22px;
+      border-radius: 28px;
+      background: white;
+      padding: 10px;
+      box-shadow: var(--shadow);
+    }
+
+    .hero h1 {
+      font-size: clamp(30px, 5vw, 48px);
+      line-height: 1.2;
+      margin-bottom: 14px;
+      letter-spacing: -1px;
+    }
+
+    .hero h1 span {
+      color: var(--primary);
+    }
+
+    .hero p {
+      color: var(--muted);
+      font-size: 17px;
+      max-width: 680px;
+      margin: auto;
+    }
+
+    .updated {
+      display: inline-block;
+      margin-top: 18px;
+      background: #eaf2ff;
+      color: var(--primary-dark);
+      padding: 7px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .container {
+      max-width: 950px;
+      margin: 0 auto;
+      padding: 20px 22px 70px;
+    }
+
+    .policy {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .section {
+      padding: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .section:last-child {
+      border-bottom: none;
+    }
+
+    .section h2 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 22px;
+      margin-bottom: 14px;
+      color: var(--text);
+    }
+
+    .section h2::before {
+      content: "";
+      width: 5px;
+      height: 25px;
+      background: var(--primary);
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    .section h3 {
+      margin-top: 20px;
+      margin-bottom: 7px;
+      font-size: 17px;
+    }
+
+    .section p {
+      color: #374151;
+      margin-bottom: 12px;
+    }
+
+    .section ul {
+      padding-right: 22px;
+      margin: 10px 0;
+    }
+
+    html[dir="ltr"] .section ul {
+      padding-right: 0;
+      padding-left: 22px;
+    }
+
+    .section li {
+      margin: 7px 0;
+      color: #374151;
+    }
+
+    .notice {
+      background: #f0f7ff;
+      border: 1px solid #d6e8ff;
+      border-radius: 16px;
+      padding: 18px;
+      margin-top: 15px;
+    }
+
+    .contact-card {
+      background: linear-gradient(
+        135deg,
+        #1677ff,
+        #0b5cff
+      );
+      color: white;
+      border-radius: 18px;
+      padding: 25px;
+      margin-top: 15px;
+    }
+
+    .contact-card h3 {
+      margin-top: 0;
+      font-size: 20px;
+    }
+
+    .contact-card p {
+      color: rgba(255,255,255,0.9);
+    }
+
+    .contact-card a {
+      color: white;
+      font-weight: 700;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 35px 20px 45px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .footer strong {
+      color: var(--text);
+    }
+
+    .english {
+      display: none;
+      direction: ltr;
+      text-align: left;
+    }
+
+    body.english-mode {
+      direction: ltr;
+    }
+
+    body.english-mode .arabic {
+      display: none;
+    }
+
+    body.english-mode .english {
+      display: block;
+    }
+
+    body.english-mode .header-inner {
+      direction: ltr;
+    }
+
+    body.english-mode .hero {
+      direction: ltr;
+    }
+
+    body.english-mode .container {
+      direction: ltr;
+    }
+
+    body.english-mode .brand {
+      direction: ltr;
+    }
+
+    @media (max-width: 650px) {
+      .header-inner {
+        min-height: 68px;
+        padding: 10px 15px;
+      }
+
+      .brand-logo {
+        width: 42px;
+        height: 42px;
+      }
+
+      .brand-subtitle {
+        display: none;
+      }
+
+      .language-switch button {
+        padding: 6px 9px;
+      }
+
+      .hero {
+        padding-top: 42px;
+      }
+
+      .hero-logo {
+        width: 90px;
+        height: 90px;
+      }
+
+      .hero h1 {
+        font-size: 31px;
+      }
+
+      .hero p {
+        font-size: 15px;
+      }
+
+      .section {
+        padding: 24px 20px;
+      }
+
+      .section h2 {
+        font-size: 20px;
+      }
+
+      .policy {
+        border-radius: 18px;
+      }
+    }
+
+    @media print {
+      .header {
+        position: static;
+      }
+
+      .language-switch {
+        display: none;
+      }
+
+      .policy {
+        box-shadow: none;
+        border: none;
+      }
+
+      .section {
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+
+  <header class="header">
+    <div class="header-inner">
+
+      <div class="brand">
+        <!-- ضع شعارك هنا باسم logo.png -->
+        <img
+          src="logo.png"
+          alt="Idara Pro Logo"
+          class="brand-logo"
+        />
+
+        <div class="brand-text">
+          <div class="brand-name">Idara Pro</div>
+          <div class="brand-subtitle">إدارة برو</div>
+        </div>
+      </div>
+
+      <div class="language-switch">
+        <button id="arBtn" class="active" onclick="setLanguage('ar')">
+          العربية
+        </button>
+
+        <button id="enBtn" onclick="setLanguage('en')">
+          English
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+
+  <!-- ================= HERO ================= -->
+
+  <section class="hero">
+
+    <img
+      src="logo.png"
+      alt="Idara Pro"
+      class="hero-logo"
+    />
+
+    <!-- Arabic -->
+
+    <div class="arabic">
+      <h1>
+        سياسة الخصوصية
+        <span>Idara Pro</span>
+      </h1>
+
+      <p>
+        توضح سياسة الخصوصية هذه كيفية جمع واستخدام وحماية
+        المعلومات والبيانات عند استخدام تطبيق إدارة برو.
+      </p>
+
+      <div class="updated">
+        آخر تحديث: 25 سبتمبر 2026
+      </div>
+    </div>
+
+
+    <!-- English -->
+
+    <div class="english">
+      <h1>
+        <span>Idara Pro</span> Privacy Policy
+      </h1>
+
+      <p>
+        This Privacy Policy explains how Idara Pro collects,
+        uses, protects, and handles information when you use
+        our application and services.
+      </p>
+
+      <div class="updated">
+        Last updated: September 25, 2026
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ================= POLICY ================= -->
+
+  <main class="container">
+
+    <div class="policy">
+
+
+      <!-- ================================================= -->
+      <!-- ARABIC -->
+      <!-- ================================================= -->
+
+      <div class="arabic">
+
+        <section class="section">
+          <h2>1. مقدمة</h2>
+
+          <p>
+            مرحبًا بك في <strong>Idara Pro — إدارة برو</strong>.
+            تطبيق Idara Pro هو منصة لإدارة الأعمال تساعد المؤسسات
+            وأصحاب الأنشطة التجارية على إدارة العملاء والموظفين
+            والمنتجات والمخزون والمبيعات والفواتير والمدفوعات
+            والتقارير وغيرها من العمليات التجارية.
+          </p>
+
+          <p>
+            نحن نحترم خصوصيتك ونسعى إلى حماية بياناتك الشخصية
+            وبيانات نشاطك التجاري وفقًا للممارسات الأمنية
+            المناسبة.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>2. المعلومات التي نجمعها</h2>
+
+          <h3>معلومات الحساب</h3>
+
+          <ul>
+            <li>الاسم.</li>
+            <li>عنوان البريد الإلكتروني.</li>
+            <li>كلمة المرور عند إنشاء حساب باستخدام البريد الإلكتروني.</li>
+            <li>صورة الملف الشخصي إذا اخترت إضافتها.</li>
+            <li>معلومات تسجيل الدخول والمصادقة.</li>
+          </ul>
+
+          <h3>تسجيل الدخول باستخدام Google</h3>
+
+          <p>
+            إذا اخترت تسجيل الدخول باستخدام Google، فقد نستلم
+            معلومات الحساب الأساسية التي توفرها Google، مثل
+            الاسم والبريد الإلكتروني ومعرّف الحساب، وفقًا
+            لإعدادات حسابك وصلاحيات Google.
+          </p>
+
+          <h3>بيانات النشاط التجاري</h3>
+
+          <ul>
+            <li>بيانات المؤسسة أو الشركة.</li>
+            <li>الفروع.</li>
+            <li>العملاء.</li>
+            <li>الموظفون.</li>
+            <li>المنتجات.</li>
+            <li>المخزون.</li>
+            <li>المبيعات والفواتير.</li>
+            <li>المدفوعات والديون.</li>
+            <li>الحضور والانصراف.</li>
+            <li>السلف والرواتب.</li>
+            <li>المصاريف والإيرادات.</li>
+            <li>التقارير والبيانات المالية والتجارية.</li>
+          </ul>
+
+          <h3>المعلومات التقنية</h3>
+
+          <p>
+            قد يتم جمع بعض المعلومات التقنية اللازمة لتشغيل
+            التطبيق وتحسين الأمان والأداء، مثل نوع الجهاز،
+            إصدار نظام التشغيل، إصدار التطبيق، ومعلومات
+            الأخطاء التقنية.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>3. كيفية استخدام المعلومات</h2>
+
+          <p>نستخدم المعلومات التي يتم جمعها من أجل:</p>
+
+          <ul>
+            <li>إنشاء وإدارة حساب المستخدم.</li>
+            <li>توفير وظائف التطبيق.</li>
+            <li>إدارة المؤسسة والفروع.</li>
+            <li>إدارة العملاء والموظفين والمنتجات والمخزون.</li>
+            <li>إنشاء المبيعات والفواتير والتقارير.</li>
+            <li>معالجة المدفوعات والاشتراكات.</li>
+            <li>تحسين أداء التطبيق واستقراره.</li>
+            <li>اكتشاف الأخطاء والمشاكل التقنية.</li>
+            <li>حماية الحسابات ومنع الاستخدام غير المصرح به.</li>
+            <li>تقديم الدعم للمستخدمين.</li>
+          </ul>
+        </section>
+
+
+        <section class="section">
+          <h2>4. ميزات الذكاء الاصطناعي</h2>
+
+          <p>
+            قد يحتوي Idara Pro على ميزات مساعدة تعتمد على
+            تقنيات الذكاء الاصطناعي لتحليل المعلومات التجارية
+            أو تقديم ملخصات واقتراحات ومساعدة في فهم البيانات.
+          </p>
+
+          <p>
+            لا ينبغي اعتبار مخرجات الذكاء الاصطناعي نصيحة
+            مالية أو قانونية أو محاسبية مهنية. يجب على المستخدم
+            مراجعة المعلومات قبل اتخاذ قرارات تجارية مهمة.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>5. الاشتراكات والمدفوعات</h2>
+
+          <p>
+            قد يوفر Idara Pro خطط اشتراك مدفوعة مثل Starter
+            وPro. تتم عمليات الاشتراك والدفع عبر مزودي الدفع
+            والمنصات المعتمدة المستخدمة لتوزيع التطبيق.
+          </p>
+
+          <p>
+            لا نقوم بتخزين بيانات بطاقة الدفع الكاملة مثل رقم
+            البطاقة أو رمز الأمان داخل تطبيق Idara Pro إلا إذا
+            كان ذلك مطلوبًا بشكل صريح وآمن بواسطة مزود دفع معتمد.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>6. الخدمات والأطراف الثالثة</h2>
+
+          <p>
+            قد يعتمد التطبيق على خدمات خارجية ضرورية لتقديم
+            بعض الوظائف، مثل خدمات المصادقة، الإشعارات،
+            التحليلات، الدفع، التخزين أو الذكاء الاصطناعي.
+          </p>
+
+          <p>
+            تخضع الخدمات الخارجية لسياسات الخصوصية الخاصة
+            بمقدميها.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>7. حماية البيانات</h2>
+
+          <p>
+            نستخدم إجراءات تقنية وتنظيمية مناسبة للمساعدة في
+            حماية المعلومات من الوصول غير المصرح به أو التعديل
+            أو الكشف أو الفقدان.
+          </p>
+
+          <div class="notice">
+            <strong>مهم:</strong>
+            لا توجد وسيلة إلكترونية يمكن ضمان أنها آمنة بنسبة
+            100%، لذلك لا يمكن ضمان الأمان المطلق للبيانات.
+          </div>
+        </section>
+
+
+        <section class="section">
+          <h2>8. الاحتفاظ بالبيانات</h2>
+
+          <p>
+            نحتفظ بالبيانات طالما كان ذلك ضروريًا لتوفير
+            الخدمات أو للحفاظ على الحساب والبيانات التجارية،
+            أو للامتثال للالتزامات القانونية، أو لحل النزاعات
+            ومنع إساءة الاستخدام.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>9. حذف الحساب والبيانات</h2>
+
+          <p>
+            يمكنك طلب حذف حسابك وبياناتك وفقًا للإجراءات
+            المتاحة داخل التطبيق أو من خلال التواصل معنا.
+          </p>
+
+          <p>
+            قد يتم الاحتفاظ ببعض البيانات لفترة محدودة عندما
+            يكون ذلك مطلوبًا قانونيًا أو ضروريًا لأغراض
+            أمنية أو محاسبية أو لمنع الاحتيال وإساءة الاستخدام.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>10. الأطفال</h2>
+
+          <p>
+            التطبيق مخصص للاستخدام التجاري ولا يستهدف الأطفال
+            الذين تقل أعمارهم عن السن القانوني المعمول به.
+            نحن لا نجمع معلومات شخصية من الأطفال عن قصد.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>11. أذونات التطبيق</h2>
+
+          <p>
+            قد يطلب التطبيق بعض الأذونات اللازمة لتقديم
+            وظائف معينة. يتم استخدام الأذونات فقط للغرض الذي
+            تم طلبها من أجله.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>12. الروابط الخارجية</h2>
+
+          <p>
+            قد يحتوي التطبيق أو موقعنا على روابط لخدمات أو
+            مواقع خارجية. لسنا مسؤولين عن ممارسات الخصوصية
+            أو محتوى تلك المواقع.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>13. تحديث سياسة الخصوصية</h2>
+
+          <p>
+            قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر.
+            سيتم نشر النسخة الجديدة على هذه الصفحة مع تحديث
+            تاريخ آخر تعديل.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>14. التواصل معنا</h2>
+
+          <p>
+            إذا كانت لديك أسئلة حول سياسة الخصوصية أو بياناتك،
+            يمكنك التواصل معنا:
+          </p>
+
+          <div class="contact-card">
+            <h3>Idara Pro — إدارة برو</h3>
+
+            <p>
+              البريد الإلكتروني:
+              <a href="mailto:mouadch097@gmail.com">
+                mouadch097@gmail.com
+              </a>
+            </p>
+
+            <p>
+              الهاتف:
+              <a href="tel:+213540796620">
+                +213 540 796 620
+              </a>
+            </p>
+          </div>
+        </section>
+
+      </div>
+
+
+      <!-- ================================================= -->
+      <!-- ENGLISH -->
+      <!-- ================================================= -->
+
+      <div class="english">
+
+        <section class="section">
+          <h2>1. Introduction</h2>
+
+          <p>
+            Welcome to <strong>Idara Pro</strong>.
+            Idara Pro is a business management platform designed
+            to help businesses manage customers, employees,
+            products, inventory, sales, invoices, payments,
+            reports, and other business operations.
+          </p>
+
+          <p>
+            We respect your privacy and are committed to protecting
+            your personal information and business data using
+            appropriate security practices.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>2. Information We Collect</h2>
+
+          <h3>Account Information</h3>
+
+          <ul>
+            <li>Name.</li>
+            <li>Email address.</li>
+            <li>Password when you create an email/password account.</li>
+            <li>Profile picture if you choose to provide one.</li>
+            <li>Authentication and login information.</li>
+          </ul>
+
+          <h3>Google Sign-In</h3>
+
+          <p>
+            If you choose to sign in with Google, we may receive
+            basic account information provided by Google, such as
+            your name, email address, and account identifier,
+            subject to your Google account settings and permissions.
+          </p>
+
+          <h3>Business Data</h3>
+
+          <ul>
+            <li>Organization or company information.</li>
+            <li>Branches.</li>
+            <li>Customers.</li>
+            <li>Employees.</li>
+            <li>Products.</li>
+            <li>Inventory.</li>
+            <li>Sales and invoices.</li>
+            <li>Payments and debts.</li>
+            <li>Attendance records.</li>
+            <li>Advances and payroll.</li>
+            <li>Expenses and revenue.</li>
+            <li>Business and financial reports.</li>
+          </ul>
+
+          <h3>Technical Information</h3>
+
+          <p>
+            We may collect limited technical information needed
+            to operate the application and improve security and
+            performance, such as device type, operating system
+            version, application version, and technical error
+            information.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>3. How We Use Information</h2>
+
+          <p>We may use collected information to:</p>
+
+          <ul>
+            <li>Create and manage user accounts.</li>
+            <li>Provide application functionality.</li>
+            <li>Manage organizations and branches.</li>
+            <li>Manage customers, employees, products, and inventory.</li>
+            <li>Create sales, invoices, and reports.</li>
+            <li>Process subscriptions and payments.</li>
+            <li>Improve application performance and stability.</li>
+            <li>Detect technical problems and errors.</li>
+            <li>Protect accounts and prevent unauthorized access.</li>
+            <li>Provide customer support.</li>
+          </ul>
+        </section>
+
+
+        <section class="section">
+          <h2>4. Artificial Intelligence Features</h2>
+
+          <p>
+            Idara Pro may include AI-powered features that help
+            analyze business information, provide summaries,
+            suggestions, or assist users in understanding their
+            business data.
+          </p>
+
+          <p>
+            AI-generated information should not be considered
+            professional financial, legal, accounting, or other
+            professional advice. Users should review information
+            before making important business decisions.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>5. Subscriptions and Payments</h2>
+
+          <p>
+            Idara Pro may offer paid subscription plans such as
+            Starter and Pro. Subscription and payment transactions
+            are handled through authorized payment providers and
+            distribution platforms used for the application.
+          </p>
+
+          <p>
+            We do not store complete payment card information,
+            such as full card numbers or security codes, inside
+            Idara Pro unless explicitly required and securely
+            handled by an authorized payment provider.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>6. Third-Party Services</h2>
+
+          <p>
+            The application may rely on third-party services
+            required for certain functionality, including
+            authentication, notifications, analytics, payments,
+            storage, or artificial intelligence services.
+          </p>
+
+          <p>
+            Third-party services are subject to the privacy
+            policies of their respective providers.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>7. Data Security</h2>
+
+          <p>
+            We use reasonable technical and organizational
+            measures to help protect information against
+            unauthorized access, modification, disclosure,
+            or loss.
+          </p>
+
+          <div class="notice">
+            <strong>Important:</strong>
+            No electronic system can be guaranteed to be 100%
+            secure, and therefore absolute data security cannot
+            be guaranteed.
+          </div>
+        </section>
+
+
+        <section class="section">
+          <h2>8. Data Retention</h2>
+
+          <p>
+            We retain information for as long as necessary to
+            provide our services, maintain accounts and business
+            data, comply with legal obligations, resolve disputes,
+            and prevent fraud or misuse.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>9. Account and Data Deletion</h2>
+
+          <p>
+            You may request deletion of your account and associated
+            data through the available mechanisms in the application
+            or by contacting us.
+          </p>
+
+          <p>
+            Certain information may be retained for a limited
+            period when required by law or necessary for security,
+            accounting, fraud prevention, or abuse prevention.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>10. Children</h2>
+
+          <p>
+            The application is intended for business use and is
+            not directed at children below the applicable legal age.
+            We do not knowingly collect personal information from
+            children.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>11. App Permissions</h2>
+
+          <p>
+            The application may request certain permissions needed
+            to provide specific functionality. Permissions are used
+            only for the purposes for which they are requested.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>12. External Links</h2>
+
+          <p>
+            The application or our website may contain links to
+            external services or websites. We are not responsible
+            for the privacy practices or content of those websites.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>13. Changes to This Privacy Policy</h2>
+
+          <p>
+            We may update this Privacy Policy from time to time.
+            The updated version will be published on this page
+            together with the updated revision date.
+          </p>
+        </section>
+
+
+        <section class="section">
+          <h2>14. Contact Us</h2>
+
+          <p>
+            If you have questions regarding this Privacy Policy
+            or your data, you can contact us:
+          </p>
+
+          <div class="contact-card">
+            <h3>Idara Pro</h3>
+
+            <p>
+              Email:
+              <a href="mailto:mouadch097@gmail.com">
+                mouadch097@gmail.com
+              </a>
+            </p>
+
+            <p>
+              Phone:
+              <a href="tel:+213540796620">
+                +213 540 796 620
+              </a>
+            </p>
+          </div>
+        </section>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="footer">
+
+    <div class="arabic">
+      <strong>Idara Pro — إدارة برو</strong>
+      <br />
+      © 2026 جميع الحقوق محفوظة.
+    </div>
+
+    <div class="english">
+      <strong>Idara Pro</strong>
+      <br />
+      © 2026 All rights reserved.
+    </div>
+
+  </footer>
+
+
+  <!-- ================= LANGUAGE SCRIPT ================= -->
+
+  <script>
+
+    function setLanguage(language) {
+
+      const body = document.body;
+
+      const arButton = document.getElementById("arBtn");
+      const enButton = document.getElementById("enBtn");
+
+      if (language === "en") {
+
+        body.classList.add("english-mode");
+        body.setAttribute("lang", "en");
+        body.setAttribute("dir", "ltr");
+
+        arButton.classList.remove("active");
+        enButton.classList.add("active");
+
+      } else {
+
+        body.classList.remove("english-mode");
+        body.setAttribute("lang", "ar");
+        body.setAttribute("dir", "rtl");
+
+        enButton.classList.remove("active");
+        arButton.classList.add("active");
+      }
+    }
+
+  </script>
+
+</body>
+</html>
